@@ -1,0 +1,9 @@
+<keymap version="1" name="Eclipse copy" parent="Eclipse">
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+</keymap>
