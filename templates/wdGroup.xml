@@ -1,0 +1,11 @@
+<templateSet group="wdGroup">
+  <template name="wd" value="/**&#10; *@描述 &#10; *@参数  $params$&#10; *@返回值  $return$&#10; *@创建人  wd&#10; *@创建时间  $date$ $time$&#10; *@修改人和其它信息&#10; */" shortcut="ENTER" description="注释快捷键" toReformat="false" toShortenFQNames="true">
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
